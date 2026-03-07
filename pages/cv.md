@@ -1,7 +1,7 @@
 
 # Background
 
-I am behrooz bozorgchamy a person how loves computer since childhoods.
+I am Behrooz Bozorgchamy, A person how loves computer since childhoods.
 
 ### Education
 - **Master of Artificial Intelligence**<br>
