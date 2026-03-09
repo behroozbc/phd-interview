@@ -47,10 +47,28 @@ My thesis aims to address and solve these limitations by designing a system that
 - Provides more accurate, context‑aware answers
 </v-clicks>
 ---
+layout: two-cols-header
+---
 
 ### Data Structure
 
+::left::
+```mermaid
+flowchart TD
+    symbol
+    definition
+    explain
+    LM
+    prerequisites["prerequisites(symbol)"]
+    symbol---explain
+    symbol---definition
+    LM-.-symbol
+    prerequisites-->symbol
+```
+::right::
 
+- All symbols stored on a knowledge graph
+- Learner Model is a sperate system that predict the understanding of student
 ---
 
 ## ✅ What I done so far! 
