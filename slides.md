@@ -10,7 +10,8 @@ duration: 20min
 coverAuthor: [behrooz bozorgchamy]
 ---
 
-# Welcome
+# Looking Back & Looking Forward
+
 
 ---
 src: ./pages/cv.md
@@ -18,4 +19,12 @@ src: ./pages/cv.md
 
 ---
 src: ./pages/master-thesis.md
+---
+
+---
+src: ./pages/research-gaps.md
+---
+
+---
+src: ./pages/whyme.md
 ---
