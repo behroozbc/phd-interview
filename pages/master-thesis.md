@@ -16,9 +16,9 @@ these models do not know:
 </v-click>
 <v-clicks >
 
-- The student’s background knowledge
-- The prerequisite topics they should already understand
-- What the instructor has covered in class
+- The student’s background knowledge.
+- The prerequisite topics they should already understand.
+- What the instructor has covered in class.
 </v-clicks>
 ::right::
 <v-click>
@@ -28,10 +28,10 @@ these models do not know:
 <v-clicks >
 
 
-- Answers may include inaccuracies
-- Some explanations may be irrelevant or missing
-- The model may ignore details the instructor has already explained
-- Responses can sometimes contain hallucinations
+- Answers may include inaccuracies.
+- Some explanations may be irrelevant or missing.
+- The model may ignore details the instructor has already explained.
+- Responses can sometimes contain hallucinations.
 </v-clicks>
 ---
 
@@ -41,10 +41,10 @@ My thesis aims to address and solve these limitations by designing a system that
 
 <v-clicks>
 
-- Adapts responses to the student’s knowledge level
-- Incorporates course‑specific content
-- Reduces hallucinations
-- Provides more accurate, context‑aware answers
+- Adapts responses to the student’s knowledge level.
+- Incorporates course‑specific content.
+- Reduces hallucinations.
+- Provides more accurate, context‑aware answers.
 </v-clicks>
 ---
 layout: two-cols-header
@@ -67,8 +67,9 @@ flowchart TD
 ```
 ::right::
 
-- All symbols stored on a knowledge graph
-- Learner Model is a sperate system that predict the understanding of student
+- All symbols stored on a knowledge graph.
+- Learner Model is a sperate system that predict the understanding of student.
+- You can see all system on [ALeA system](https://alea.education/).
 ---
 
 ## ✅ What I done so far! 
@@ -150,3 +151,18 @@ GatherPrerequisites-->GetUserknowleageStatus
 GatherSymbols-->GetUserknowleageStatus
 ```
 </v-click>
+
+---
+
+## Remaining Tasks
+
+<v-clicks depth=2>
+
+- Evaluting my results.
+    - Human review: instructor/TA rubric
+    - LLM as judge: does the answer align with retrieved fragments?
+- Try RAFT method
+    - Prepare a small dataset with question and answers.
+    - Finetuning the model with LoRA.
+    - compare RAG results with new Results.
+</v-clicks>
