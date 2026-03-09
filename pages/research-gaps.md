@@ -1,5 +1,6 @@
 # Research Gaps
 My research interests focus on **neuro-symbolic methods**, **interpretability** and **multilinguality** in NLP.
+<v-clicks>
 
 1. **neuro-symbolic methods**
     - It is a hybrid approach and brings advantage of sub-symbolic and symbolic AI. 
@@ -7,15 +8,41 @@ My research interests focus on **neuro-symbolic methods**, **interpretability** 
     - Rapid progress in deep learning often outpaces our understanding of how changes affect internal behavior. Better interpretability enables more targeted and successful improvements.
 3. **multilinguality**
     - As a multilingual speaker, I frequently notice how Large Language Models (LLMs) perform inconsistently on low-resource and unseen languages.
-
+</v-clicks>
 ---
 
 ## Improved neuro-symbolic RAG
+The [GraphRAG](https://arxiv.org/pdf/2404.16130) is a strong neuro-symbolic advance but the current graph-based RAG methods often **retrieve redundant information** and **lack strong task alignment**. 
 
+I propose a refined hybrid RAG framework which is PathRAG and RAFT techniques inspired for better alignment.
+
+-  Preprocess documents into an entity-relation graph using LLMs.
+-  Retrieve nodes via keyword + semantic similarity, followed by relational path aggregation to reduce redundancy.
+-  Generate answers with a prompted LLM.
+-  Fine-tune the model.
+
+Evaluation will use UltraDomain benchmark datasets (Agriculture, CS, Legal,Mixed) to test generalization to diverse, long-tail domains.
 ---
-
+layout: two-cols-header
+---
 ## Language specialization in multilingual LLMs
 
+How multilingual LLMs allocate language-specific knowledge across parameters, especially in MoE architectures.
+
+**Are some attention heads or experts specialized for particular languages?**
+::left::
+Attention heads
+
+- Model: Aya-23
+- Method: An adapt techniques from “Are Sixteen Heads Really Better than One?” to identify language-specific vs. language-agnostic heads.
+- Dataset: An Small Persian and English parallel data.
+
+::right::
+
+ MoE routing behavior
+- Model: Mixtral and Chatgpt opensource 
+- Dataset: FLORES-200 dataset
+- Method: Averaging router activations
 ---
 hide: true
 ---
