@@ -1,19 +1,33 @@
+---
+layout: two-cols-header
+---
 
 # TripartiteRAG
 
 ## Problem Statement & Motivation
 Students often ask questions from ChatGPT or other language models.
-<v-clicks depth=2>
+::left::
+<v-click>
 
-### 🎓 Challenge in Using Language Models for Education, these models do not know:
-<!-- these models do not know: -->
+### 🎓 Challenge in Using Language Models for Education
+</v-click>
+<v-click>
+these models do not know:
+</v-click>
+<v-clicks >
+
 - The student’s background knowledge
 - The prerequisite topics they should already understand
 - What the instructor has covered in class
 </v-clicks>
-<v-clicks depth=2>
+::right::
+<v-click>
 
 ### ⚠️ Resulting Issues
+</v-click>
+<v-clicks >
+
+
 - Answers may include inaccuracies
 - Some explanations may be irrelevant or missing
 - The model may ignore details the instructor has already explained
