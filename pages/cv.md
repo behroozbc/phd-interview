@@ -3,6 +3,8 @@
 
 I am Behrooz Bozorgchamy, A person how loves computer since childhoods.
 
+<v-clicks>
+
 ### Education
 - **Master of Artificial Intelligence**<br>
   September 2023 - Present <br>
@@ -15,3 +17,4 @@ I am Behrooz Bozorgchamy, A person how loves computer since childhoods.
   September 2017 - December 2022 <br>
   Islamic Azad University, Science and Research Branch, Tehran, Iran <br>
   GPA – 15.38/20 (Iran system)
+</v-clicks>
