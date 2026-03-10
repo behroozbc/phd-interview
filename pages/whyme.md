@@ -12,6 +12,6 @@ layout: two-cols-header
 
 ::right::
 
-## Why I want to say at FAU?
+## Why I want to stay at FAU?
 - FAU gives me perfect tools and envoroment.
 - Truely apply the "Moving knowledge".

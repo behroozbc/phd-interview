@@ -55,11 +55,11 @@ layout: two-cols-header
 ::left::
 ```mermaid
 flowchart TD
-    symbol
-    definition
-    explain
-    LM
-    prerequisites["prerequisites(symbol)"]
+    symbol["Symbol(Topic)"]
+    definition["Definition"]
+    explain["Explain"]
+    LM["Learner Model"]
+    prerequisites["Prerequisites(symbol)"]
     symbol---explain
     symbol---definition
     LM-.-symbol
@@ -68,7 +68,8 @@ flowchart TD
 ::right::
 
 - All symbols stored on a knowledge graph.
-- Learner Model is a sperate system that predict the understanding of student.
+- A learner model is a separate system that predicts a student’s level of understanding based on their interactions with quizzes and problem‑solving tasks.
+- All symbols and their relationships are stored in GraphDB, and data retrieval is possible only via SPARQL queries.
 - You can see all system on [ALeA system](https://alea.education/).
 ---
 
@@ -163,6 +164,6 @@ GatherSymbols-->GetUserknowleageStatus
     - LLM as judge: does the answer align with retrieved fragments?
 - Try RAFT method
     - Prepare a small dataset with question and answers.
-    - Finetuning the model with LoRA.
+    - Fine-Tuning the model.
     - compare RAG results with new Results.
 </v-clicks>
