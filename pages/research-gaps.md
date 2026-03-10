@@ -34,14 +34,13 @@ How multilingual LLMs allocate language-specific knowledge across parameters, es
 Attention heads
 
 - Model: Aya-23
-- Method: An adapt techniques from “Are Sixteen Heads Really Better than One?” to identify language-specific vs. language-agnostic heads.
 - Dataset: An Small Persian and English parallel data.
-
+- Method: An adapt techniques from “Are Sixteen Heads Really Better than One?” to identify language-specific vs. language-agnostic heads.
 ::right::
 
  MoE routing behavior
 - Model: Mixtral and Chatgpt opensource 
-- Dataset: FLORES-200 dataset
+- Dataset: FLORES-200 dataset and the dataset of the attentoin heads part.
 - Method: Averaging router activations
 ---
 hide: true
