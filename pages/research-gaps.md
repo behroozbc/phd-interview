@@ -58,8 +58,7 @@ layout: two-cols
 
 
 </v-clicks>
----
-hide: true
+
 ---
 
 ## Multi Language PATHRAG

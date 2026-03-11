@@ -1,4 +1,3 @@
-
 ---
 layout: two-cols-header
 ---
@@ -23,7 +22,7 @@ these models do not know:
 ::right::
 <v-click at=1>
 
-![qa](../public/front-view-female-student-writing-notes.png)
+![qa](/front-view-female-student-writing-notes.png)
 </v-click>
 ---
 layout: two-cols-header
@@ -42,7 +41,7 @@ layout: two-cols-header
 ::right::
 <v-click>
 
-![dontfindanswer](../public/front-view-female-student-with-many-files.png)
+![dontfindanswer](/front-view-female-student-with-many-files.png)
 </v-click>
 ---
 

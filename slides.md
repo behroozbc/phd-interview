@@ -17,6 +17,7 @@ coverAuthor: [behrooz bozorgchamy]
 
 ---
 src: ./pages/cv.md
+hide: true
 ---
 
 ---
@@ -29,4 +30,5 @@ src: ./pages/research-gaps.md
 
 ---
 src: ./pages/whyme.md
+hide : true
 ---
