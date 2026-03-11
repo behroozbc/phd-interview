@@ -3,9 +3,12 @@ layout: two-cols-header
 ---
 
 # TripartiteRAG
+<v-click>
 
 ## Problem Statement & Motivation
 Students often ask ChatGPT or other language models questions.
+</v-click>
+
 ::left::
 <v-click>
 
@@ -64,6 +67,7 @@ layout: two-cols-header
 ### Data Structure
 
 ::left::
+<v-click>
 ```mermaid
 flowchart TD
     symbol["Symbol(Topic)"]
@@ -76,12 +80,15 @@ flowchart TD
     LM-.-symbol
     prerequisites-->symbol
 ```
+</v-click>
 ::right::
+<v-clicks>
 
-- All symbols are stored on a knowledge graph.
-- A learner model is a separate system that predicts a student’s level of understanding based on their interactions with quizzes and problem‑solving tasks.
 - All symbols and their relationships are stored in GraphDB, and data retrieval is possible only via SPARQL queries.
+- The learner model is a separate system that predicts a student’s level of understanding based on their interactions with quizzes and problem‑solving tasks.
 - You can see the whole system on the [ALeA system](https://alea.education/).
+- The learner model data should get online, it is different for every user and changes frequently.
+</v-clicks>
 ---
 
 ## ✅ What I have done so far! 
@@ -158,9 +165,9 @@ GatherSymbols["Gather Symbols"]
 RetrievedScored-->BuildPrompt
 RetrievedScored-->GatherSymbols
 RetrievedScored-->GatherPrerequisites
-GetUserknowleageStatus-->BuildPrompt
-GatherPrerequisites-->GetUserknowleageStatus
-GatherSymbols-->GetUserknowleageStatus
+GetUserKnowledgeStatus-->BuildPrompt
+GatherPrerequisites-->GetUserKnowledgeStatus
+GatherSymbols-->GetUserKnowledgeStatus
 ```
 </v-click>
 
@@ -168,7 +175,7 @@ GatherSymbols-->GetUserknowleageStatus
 
 ## Demo
 >Q: What is an AI agent?
-
+<br>
 
 >A: An AI agent is a software program that performs tasks and makes decisions on its own, using artificial intelligence (AI) techniques to interact with its environment and achieve specific goals.
 There are several types of AI agents, including:

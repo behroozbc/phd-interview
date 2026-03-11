@@ -1,6 +1,9 @@
 # Research Gaps
+<v-click>
+
 ## Research Interests 
 My research interests focus on **neuro-symbolic methods**, **interpretability** and **multilinguality** in NLP.
+</v-click>
 <v-clicks>
 
 1. **neuro-symbolic methods**
@@ -8,7 +11,7 @@ My research interests focus on **neuro-symbolic methods**, **interpretability** 
 2. **interpretability**
     - Rapid progress in deep learning often outpaces our understanding of how changes affect internal behavior. Better interpretability enables more targeted and successful improvements.
 3. **multilinguality**
-    - As a multilingual speaker, I frequently notice how Large Language Models (LLMs) perform inconsistently on low-resource and unseen languages.
+    - As a multilingual speaker, I frequently notice how Large Language Models (LLMs) perform inconsistently on low-resource.
 </v-clicks>
 ---
 layout: two-cols-header
@@ -27,10 +30,9 @@ The [GraphRAG](https://arxiv.org/pdf/2404.16130) is a strong neuro-symbolic adva
 
 - Generated knowledge graph is nonsense. 
 - Models cannot find proper information from the context.
-- Correct methods use a flat structure to manage.
 - They cannot flow the relation on the graph in retrieval.
-- Lack task alignments.
-- Model cannot find proper relation because it has lack of task alignments.
+- Model cannot find proper relation in indexing and retrieval because it has lack of task alignments.
+
 </v-click>
 ::right::
 
@@ -40,7 +42,7 @@ The [GraphRAG](https://arxiv.org/pdf/2404.16130) is a strong neuro-symbolic adva
 ### 🎯 Goal
 
 - Generated knowledge graph become more sense and have less hallucinations. 
-- Context-aware generation of knowledge graph.
+<!-- - Context-aware generation of knowledge graph. -->
 - In retrieval, follow the path of relations. 
 - Task alignment in knowledge graph generations.
 </v-click>
@@ -63,10 +65,11 @@ layout: two-cols-header
 
 ## Language specialization in multilingual LLMs
 
-
+<v-click>
 Because of rapid achievements we don't know how multilingual LLMs allocate language-specific knowledge across parameters, especially in MoE architectures.
 
 **Are some attention heads or experts specialized for particular languages?**
+</v-click>
 ::left::
 <v-click>
 
@@ -92,7 +95,8 @@ layout: two-cols-header
 
 ## Multi Language neuro-symbolic method
 
-The [GraphRAG](https://arxiv.org/pdf/2404.16130) methods do not have capability of indexing and augmenting be in different langues, which usually results nonsense outputs. which results questioning in one language and answering in other language not possible or answers be poorly.
+The [GraphRAG](https://arxiv.org/pdf/2404.16130) methods do not have capability of indexing and augmenting be in different languages, which usually results nonsense outputs. 
+Therefore indexing in one language and answering in other language not possible or answers be poorly.
 
 ::left::
 <v-click>
