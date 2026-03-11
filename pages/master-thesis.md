@@ -103,17 +103,17 @@ flowchart LR
 ```mermaid 
 flowchart LR
     Data["Data"]
-    Prossess["Chunking"]
-    Data-->Prossess
+    Process["Chunking"]
+    Data-->Process
 ```
 </template>
 <template #3>
 ```mermaid 
 flowchart LR
     Data["Data"]
-    Prossess["Chunking"]
+    Process["Chunking"]
     Storage
-    Data-->Prossess-->Storage
+    Data-->Process-->Storage
 ```
 </template>
 </v-switch>
@@ -150,7 +150,7 @@ LexicalSearch-->RetrievedScored
 ```mermaid
 flowchart LR
 BuildPrompt["Build Prompt"]
-GetUserknowleageStatus["Get User Knowleage Status"]
+GetUserknowleageStatus["Get User Knowledge Status"]
 RetrievedScored["Retrieved and Scored Content"]
 GatherPrerequisites["Gather Prerequisites"]
 GatherSymbols["Gather Symbols"]
@@ -169,7 +169,7 @@ GatherSymbols-->GetUserknowleageStatus
 
 <v-clicks depth=2>
 
-- Evaluting my results.
+- Evaluating my results.
     - Human review: instructor/TA rubric
     - LLM as judge: does the answer align with retrieved fragments?
 - Try RAFT method
