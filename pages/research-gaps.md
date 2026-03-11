@@ -68,13 +68,16 @@ Because of rapid achievements we don't know how multilingual LLMs allocate langu
 
 **Are some attention heads or experts specialized for particular languages?**
 ::left::
+<v-click>
 
 ### ⚠️ Resulting Issues
 
 - Using many computation parts on unusual part in training and fine-tuning.
 - Distillation would damage useful parts of model on the specific tasks. 
-
+</v-click>
 ::right::
+
+<v-click>
 
 ### 🎯 Goal
 
@@ -82,7 +85,7 @@ Because of rapid achievements we don't know how multilingual LLMs allocate langu
 - More energy and computation efficient fine-tuning.
     - Only fine-tuning useful parts and fix other parts. 
 - Creating distilled smaller model with less losing needed capability.
-
+</v-click>
 ---
 layout: two-cols-header
 ---
@@ -92,15 +95,21 @@ layout: two-cols-header
 The [GraphRAG](https://arxiv.org/pdf/2404.16130) methods do not have capability of indexing and augmenting be in different langues, which usually results nonsense outputs. which results questioning in one language and answering in other language not possible or answers be poorly.
 
 ::left::
+<v-click>
 
 ### ⚠️ Resulting Issues
 
 - Responses contain hallucinations because insufficient data added on prompt.
 - Answers may be unrelated.
 - Answers may include inaccuracies.
+
+</v-click>
 ::right::
+
+<v-click>
 
 ### 🎯 Goal
 
 - Answers be similar to original data answers. 
 - Answers contains multi languages data.
+</v-click>

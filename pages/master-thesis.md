@@ -1,6 +1,7 @@
 ---
 layout: two-cols-header
 ---
+
 # TripartiteRAG
 
 ## Problem Statement & Motivation

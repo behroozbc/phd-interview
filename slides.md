@@ -12,7 +12,7 @@ coverBackgroundUrl: /intro.png
 coverAuthor: [behrooz bozorgchamy]
 ---
 
-# Looking Back & Looking Forward
+# TripartiteRAG & Looking Forward 
 
 
 ---
