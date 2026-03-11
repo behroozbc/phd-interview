@@ -5,8 +5,10 @@ transition: slide-left
 # enable Comark Syntax: https://comark.dev/syntax/markdown
 comark: true
 layout: cover
+class: text-white
 # duration of the presentation
 duration: 20min
+coverBackgroundUrl: /intro.png
 coverAuthor: [behrooz bozorgchamy]
 ---
 

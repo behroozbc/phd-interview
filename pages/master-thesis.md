@@ -1,7 +1,7 @@
+
 ---
 layout: two-cols-header
 ---
-
 # TripartiteRAG
 
 ## Problem Statement & Motivation
@@ -21,10 +21,16 @@ these models do not know:
 - What the instructor has covered in class.
 </v-clicks>
 ::right::
-<v-click>
+<v-click at=1>
+
+![qa](../public/front-view-female-student-writing-notes.png)
+</v-click>
+---
+layout: two-cols-header
+---
 
 ### ⚠️ Resulting Issues
-</v-click>
+::left::
 <v-clicks >
 
 
@@ -33,6 +39,11 @@ these models do not know:
 - The model may ignore details the instructor has already explained.
 - Responses can sometimes contain hallucinations.
 </v-clicks>
+::right::
+<v-click>
+
+![dontfindanswer](../public/front-view-female-student-with-many-files.png)
+</v-click>
 ---
 
 ### 🎯 Thesis Goal
