@@ -103,10 +103,11 @@ Therefore indexing in one language and answering in other language not possible 
 
 ### ⚠️ Resulting Issues
 
-- Responses contain hallucinations because insufficient data added on prompt.
+- Answers contain hallucinations.
 - Answers may be unrelated.
 - Answers may include inaccuracies.
-
+- Answers are outdated compare the original answers.
+- Answers are insufficient or does not contain all important points compare the original answers. 
 </v-click>
 ::right::
 
@@ -116,4 +117,5 @@ Therefore indexing in one language and answering in other language not possible 
 
 - Answers be similar to original data answers. 
 - Answers contains multi languages data.
+- Propose a method can retrieval multi languages data. 
 </v-click>
