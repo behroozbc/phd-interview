@@ -1,4 +1,5 @@
 # Research Gaps
+## Research Interests 
 My research interests focus on **neuro-symbolic methods**, **interpretability** and **multilinguality** in NLP.
 <v-clicks>
 
@@ -10,12 +11,42 @@ My research interests focus on **neuro-symbolic methods**, **interpretability** 
     - As a multilingual speaker, I frequently notice how Large Language Models (LLMs) perform inconsistently on low-resource and unseen languages.
 </v-clicks>
 ---
+layout: two-cols-header
+---
 
 ## Improved neuro-symbolic RAG
 
-<v-clicks>
+<v-click>
 
-The [GraphRAG](https://arxiv.org/pdf/2404.16130) is a strong neuro-symbolic advance but the current graph-based RAG methods often **retrieve redundant information** and **lack strong task alignment**. 
+The [GraphRAG](https://arxiv.org/pdf/2404.16130) is a strong neuro-symbolic advance but the current graph-based RAG methods often **retrieve redundant information** and **lack strong task alignment**.
+</v-click>
+::left::
+<v-click>
+
+### ⚠️ Resulting Issues
+
+- Generated knowledge graph is nonsense. 
+- Models cannot find proper information from the context.
+- Correct methods use flat structure to manage.
+- They cannot flow the relation on the graph in retrieval.
+- Lack task alignments.
+- Model cannot find proper relation because it has lack of task alignments.
+</v-click>
+::right::
+
+
+<v-click>
+
+### 🎯 Goal
+
+- Generated knowledge graph become more sense and have less hallucinations. 
+- Context aware generation of knowledge graph.
+- In retrieval flow path of relations. 
+- Task alignment in knowledge graph generations.
+</v-click>
+<!-- <v-clicks>
+
+ 
 
 I propose a refined hybrid RAG framework which is PathRAG and RAFT techniques inspired for better alignment.
 
@@ -25,40 +56,51 @@ I propose a refined hybrid RAG framework which is PathRAG and RAFT techniques in
 -  Fine-tune the model.
 
 Evaluation will use UltraDomain benchmark datasets (Agriculture, CS, Legal,Mixed) to test generalization to diverse, long-tail domains.
-</v-clicks>
+</v-clicks> -->
 ---
 layout: two-cols-header
 ---
 
 ## Language specialization in multilingual LLMs
 
-How multilingual LLMs allocate language-specific knowledge across parameters, especially in MoE architectures.
+
+Because of rapid achievements we don't know how multilingual LLMs allocate language-specific knowledge across parameters, especially in MoE architectures.
 
 **Are some attention heads or experts specialized for particular languages?**
 ::left::
-<v-clicks>
 
-### Attention heads
+### ⚠️ Resulting Issues
 
-- Model: Aya-23 <!--Deep leguge undarstanding than aya-101-->
-- Dataset: An Small Persian and English parallel data.
-- Method: An adapt techniques from “Are Sixteen Heads Really Better than One?” to identify language-specific vs. language-agnostic heads.
-</v-clicks>
+- Using many computation parts on unusual part in training and fine-tuning.
+- Distillation would damage useful parts of model on the specific tasks. 
+
 ::right::
----
-layout: two-cols
----
 
-<v-clicks>
+### 🎯 Goal
 
- ### MoE routing behavior
-- Model: Mixtral 8b and gpt-oss-20b 
-- Dataset: FLORES-200 dataset and the dataset of the attentoin heads part.
-- Method: Averaging router activations to identify language-specific vs. language-agnostic heads.
-
-
-</v-clicks>
+- Understanding part of model are specific to each language.
+- More energy and computation efficient fine-tuning.
+    - Only fine-tuning useful parts and fix other parts. 
+- Creating distilled smaller model with less losing needed capability.
 
 ---
+layout: two-cols-header
+---
 
-## Multi Language PATHRAG
+## Multi Language neuro-symbolic method
+
+The [GraphRAG](https://arxiv.org/pdf/2404.16130) methods do not have capability of indexing and augmenting be in different langues, which usually results nonsense outputs. which results questioning in one language and answering in other language not possible or answers be poorly.
+
+::left::
+
+### ⚠️ Resulting Issues
+
+- Responses can sometimes contain hallucinations.
+- Answers may be unrelated.
+- Answers may include inaccuracies.
+::right::
+
+### 🎯 Goal
+
+- Answers be similar to original data answers. 
+- Answers contains multi languages data.
