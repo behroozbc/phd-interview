@@ -28,7 +28,13 @@ src: ./pages/master-thesis.md
 src: ./pages/research-gaps.md
 ---
 
+
 ---
-src: ./pages/whyme.md
-hide : true
+layout: cover
+---
+
+# Thanks
+---
+src: ./pages/appendex.md
+hideInToc: true
 ---
