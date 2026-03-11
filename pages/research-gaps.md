@@ -4,7 +4,7 @@ My research interests focus on **neuro-symbolic methods**, **interpretability** 
 <v-clicks>
 
 1. **neuro-symbolic methods**
-    - It is a hybrid approach and brings advantage of sub-symbolic and symbolic AI. 
+    - It is a hybrid approach that brings the advantages of sub-symbolic and symbolic AI. 
 2. **interpretability**
     - Rapid progress in deep learning often outpaces our understanding of how changes affect internal behavior. Better interpretability enables more targeted and successful improvements.
 3. **multilinguality**
@@ -27,7 +27,7 @@ The [GraphRAG](https://arxiv.org/pdf/2404.16130) is a strong neuro-symbolic adva
 
 - Generated knowledge graph is nonsense. 
 - Models cannot find proper information from the context.
-- Correct methods use flat structure to manage.
+- Correct methods use a flat structure to manage.
 - They cannot flow the relation on the graph in retrieval.
 - Lack task alignments.
 - Model cannot find proper relation because it has lack of task alignments.
@@ -40,8 +40,8 @@ The [GraphRAG](https://arxiv.org/pdf/2404.16130) is a strong neuro-symbolic adva
 ### 🎯 Goal
 
 - Generated knowledge graph become more sense and have less hallucinations. 
-- Context aware generation of knowledge graph.
-- In retrieval flow path of relations. 
+- Context-aware generation of knowledge graph.
+- In retrieval, follow the path of relations. 
 - Task alignment in knowledge graph generations.
 </v-click>
 <!-- <v-clicks>

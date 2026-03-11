@@ -5,14 +5,14 @@ layout: two-cols-header
 # TripartiteRAG
 
 ## Problem Statement & Motivation
-Students often ask questions from ChatGPT or other language models.
+Students often ask ChatGPT or other language models questions.
 ::left::
 <v-click>
 
 ### 🎓 Challenge in Using Language Models for Education
 </v-click>
 <v-click>
-these models do not know:
+These models do not know:
 </v-click>
 <v-clicks >
 
@@ -78,13 +78,13 @@ flowchart TD
 ```
 ::right::
 
-- All symbols stored on a knowledge graph.
+- All symbols are stored on a knowledge graph.
 - A learner model is a separate system that predicts a student’s level of understanding based on their interactions with quizzes and problem‑solving tasks.
 - All symbols and their relationships are stored in GraphDB, and data retrieval is possible only via SPARQL queries.
-- You can see all system on [ALeA system](https://alea.education/).
+- You can see the whole system on the [ALeA system](https://alea.education/).
 ---
 
-## ✅ What I done so far! 
+## ✅ What I have done so far! 
 
 ### Indexing
 <v-switch>
@@ -97,7 +97,7 @@ flowchart LR
 ```
 
 #### Data
-- The course materials and content related to each section and the UUID.
+- The course materials and content related to each section, along with the UUID.
 </template >
 
 <template #2>
@@ -151,7 +151,7 @@ LexicalSearch-->RetrievedScored
 ```mermaid
 flowchart LR
 BuildPrompt["Build Prompt"]
-GetUserknowleageStatus["Get User Knowledge Status"]
+GetUserKnowledgeStatus["Get User Knowledge Status"]
 RetrievedScored["Retrieved and Scored Content"]
 GatherPrerequisites["Gather Prerequisites"]
 GatherSymbols["Gather Symbols"]
@@ -167,7 +167,7 @@ GatherSymbols-->GetUserknowleageStatus
 ---
 
 ## Demo
->Q: what is ai agent?
+>Q: What is an AI agent?
 
 
 >A: An AI agent is a software program that performs tasks and makes decisions on its own, using artificial intelligence (AI) techniques to interact with its environment and achieve specific goals.
@@ -196,8 +196,8 @@ Overall, AI agents are an essential component of many modern AI systems, enablin
 - Evaluating my results.
     - Human review: instructor/TA rubric
     - LLM as judge: does the answer align with retrieved fragments?
-- Try RAFT method
-    - Prepare a small dataset with question and answers.
+- Try the RAFT method
+    - Prepare a small dataset with questions and answers.
     - Fine-Tuning the model.
     - compare RAG results with new Results.
 </v-clicks>
