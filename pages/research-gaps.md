@@ -95,7 +95,7 @@ The [GraphRAG](https://arxiv.org/pdf/2404.16130) methods do not have capability 
 
 ### ⚠️ Resulting Issues
 
-- Responses can sometimes contain hallucinations.
+- Responses contain hallucinations because insufficient data added on prompt.
 - Answers may be unrelated.
 - Answers may include inaccuracies.
 ::right::
