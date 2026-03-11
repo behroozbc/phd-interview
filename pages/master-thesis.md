@@ -165,6 +165,29 @@ GatherSymbols-->GetUserknowleageStatus
 
 ---
 
+## Demo
+>Q: what is ai agent?
+
+
+>A: An AI agent is a software program that performs tasks and makes decisions on its own, using artificial intelligence (AI) techniques to interact with its environment and achieve specific goals.
+There are several types of AI agents, including:
+Goal-based agents: These agents have a set of goals or objectives that they try to achieve. They use reasoning and planning to determine the best course of action to reach their goals.
+Utility-based agents: These agents evaluate actions based on their expected utility or reward. They choose the action with the highest expected utility, which is often calculated using a utility function.
+Model-based agents: These agents have an internal model of the world and use it to reason about the consequences of their actions. They can plan and predict the outcomes of different actions.
+Some key characteristics of AI agents include:
+Perception: The ability to sense and understand the environment, including perceiving inputs such as sensor data or user requests.
+Action: The ability to perform tasks and take actions in the environment, such as moving a robot arm or sending an email.
+Reasoning: The ability to draw conclusions and make decisions based on available information and knowledge.
+Learning: The ability to improve performance over time through experience and adaptation.
+AI agents can be used in a wide range of applications, including:
+Robotics
+Virtual assistants (e.g. Siri, Alexa)
+Chatbots
+Recommendation systems
+Autonomous vehicles
+Overall, AI agents are an essential component of many modern AI systems, enabling them to interact with the world, make decisions, and achieve their goals.
+---
+
 ## Remaining Tasks
 
 <v-clicks depth=2>
