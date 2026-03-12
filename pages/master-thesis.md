@@ -39,7 +39,7 @@ layout: two-cols-header
 
 - Answers may include inaccuracies.
 - Some explanations may be irrelevant or missing.
-- The model may ignore details the instructor has already explained.
+- Answers may ignore details the instructor has already explained.
 - Responses can sometimes contain hallucinations.
 </v-clicks>
 ::right::
@@ -86,8 +86,8 @@ flowchart TD
 
 - All symbols and their relationships are stored in GraphDB, and data retrieval is possible only via SPARQL queries.
 - The learner model is a separate system that predicts a student’s level of understanding based on their interactions with quizzes and problem‑solving tasks.
-- You can see the whole system on the [ALeA system](https://alea.education/).
 - The learner model data should get online, it is different for every user and changes frequently.
+- You can see the whole system on the [ALeA system](https://alea.education/).
 </v-clicks>
 ---
 
