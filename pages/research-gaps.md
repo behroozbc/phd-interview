@@ -44,7 +44,7 @@ The [GraphRAG](https://arxiv.org/pdf/2404.16130) is a strong neuro-symbolic adva
 - Generated knowledge graph become more sense and have less hallucinations. 
 <!-- - Context-aware generation of knowledge graph. -->
 - In retrieval, follow the path of relations. 
-- Task alignment in knowledge graph generations.
+- Task alignment in knowledge graph generations and retrieval.
 </v-click>
 <!-- <v-clicks>
 
@@ -75,7 +75,7 @@ Because of rapid achievements we don't know how multilingual LLMs allocate langu
 
 ### ⚠️ Resulting Issues
 
-- Using many computation parts on unusual part in training and fine-tuning.
+- Using many computation parts on unwanted part in training and fine-tuning.
 - Distillation would damage useful parts of model on the specific tasks. 
 </v-click>
 ::right::
@@ -106,8 +106,7 @@ Therefore indexing in one language and answering in other language not possible 
 - Answers contain hallucinations.
 - Answers may be unrelated.
 - Answers may include inaccuracies.
-- Answers are outdated compare the original answers.
-- Answers are insufficient or does not contain all important points compare the original answers. 
+- Answers are outdated or insufficient or does not contain all important points compare the original language answers. 
 </v-click>
 ::right::
 
@@ -118,4 +117,5 @@ Therefore indexing in one language and answering in other language not possible 
 - Answers be similar to original data answers. 
 - Answers contains multi languages data.
 - Propose a method can retrieval multi languages data. 
+- Reduces hallucinations in other languages answer.
 </v-click>
